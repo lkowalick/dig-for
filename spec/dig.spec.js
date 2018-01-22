@@ -13,12 +13,3 @@ describe("dig", () => {
     expect(dig.three({ one: { two: 2 }, three: 3 })).toEqual(3);
   });
 });
-
-xdescribe(".o", () => {
-  it('combines functions', () => {
-    var a = (arg) => 3 * arg;
-    var b = (arg) => 10 + arg;
-    var c = (arg) => arg * arg;
-    expect(dig.o.a.b.c(2)).toEqual(256);
-  });
-});
