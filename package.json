@@ -1,0 +1,16 @@
+{
+  "name": "dig-for",
+  "version": "1.0.0",
+  "description": "Digging with dots",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "dig",
+    "path",
+    "nest"
+  ],
+  "author": "Ryan Kowalick <rkowalick@gmail.com>",
+  "license": "ISC"
+}
