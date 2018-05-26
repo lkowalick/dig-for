@@ -3,4 +3,4 @@ var handler = {
   get: (obj, prop) => new Proxy(() => ({ path: obj().path.concat([prop]) }), handler),
 };
 
-exports = new Proxy(() => ({ path: [] }), handler);
+exports.for = new Proxy(() => ({ path: [] }), handler);
