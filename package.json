@@ -1,6 +1,6 @@
 {
   "name": "dig-for",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "Digging with dots",
   "main": "index.js",
   "scripts": {
