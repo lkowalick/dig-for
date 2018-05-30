@@ -3,8 +3,9 @@ var forHandler = {
   get: (obj, prop) => new Proxy(() => ({ path: obj().path.concat([prop]) }), forHandler),
 };
 
-exports.for = new Proxy(() => ({ path: [] }), forHandler);
+exports.dig = new Proxy(() => ({ path: [] }), forHandler);
 
+/* wip
 var oHandler = {
   apply: (obj, thisArg, args) =>  {
     console.log("MAH FUNCTIONS: ", obj().functions);
@@ -27,3 +28,4 @@ var oHandler = {
 };
 
 exports.o = new Proxy(function() { return { functions: [] } }, oHandler)
+*/
